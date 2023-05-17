@@ -34,6 +34,8 @@ let errorPassword;
 $("form").submit((e)=>{
         e.preventDefault();
         if(!errorEmail && !errorPassword){
+            //envoyer donner vers api pour identifier le user
+            //apres identifie le user mettre object user dans localStorage avec une cle user puis rediger le user
             window.location.href="../index.html";
         }
     })
