@@ -1,0 +1,40 @@
+ 
+ body{
+    background-color: #1e1c1d;
+    margin: 10px;
+ }
+ .row img{
+    height: 70vh;
+    width: 100%;
+ }
+ .bande {
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 15px;
+    background-color: inherit;
+    color: white !important;
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px;
+ }
+ .bande:hover{
+    background-color: #3781ea;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+ }
+
+ .voir{
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 15px;
+    background-color: inherit;
+    color: white !important;
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px;
+ }
+ .voir:hover{
+    background-color: #1b422a;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+ }
