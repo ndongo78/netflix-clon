@@ -9,7 +9,7 @@ const user=localStorage.getItem("user");
 $("nav").load("../pages/navBar.html");
 
 const apiUrl="https://api.themoviedb.org/3/"
-const api_key="c9fea28ebb8e967442522ed79ad32352";
+const api_key="api_key";
 
 function redirect(item) {
   const itemParsed=JSON.stringify(item);
